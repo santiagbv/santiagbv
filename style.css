@@ -1,0 +1,119 @@
+body {
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mycard {
+  padding-top: 1rem;
+}
+
+.me {
+  font-family: "Russo One", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.name {
+  font-family: "Homemade Apple", cursive;
+  padding-left: 4em;
+  vertical-align: bottom;
+  font-size: 2em;
+}
+
+.banner {
+  /* Background pattern from Toptal Subtle Patterns */
+
+  background: linear-gradient(to top, hsla(29, 67%, 23%, 0), #ffffff),
+    url("https://i.pinimg.com/originals/32/36/08/323608123209203afe1f365fa929701d.jpg");
+  background-size: cover;
+  width: auto;
+  height: fit-content;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.personal {
+  filter: grayscale(70%);
+}
+
+.redes {
+  height: 3em;
+  background-color: orangered;
+}
+
+.zero-padding {
+  padding: 0px !important;
+}
+
+.social {
+  padding-left: 1em;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.project-image {
+  border-radius: 50%;
+  height: 4em;
+  width: 4em;
+  align-self: center;
+}
+
+.pr-title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.projects-sec {
+  background: linear-gradient(to top, hsla(29, 67%, 23%, 0), #ffffff),
+    url("https://i.pinimg.com/originals/df/a7/e1/dfa7e185d7c89e76b254c3b4b313bcfa.jpg");
+  background-size: cover;
+  width: auto;
+  height: fit-content;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.card {
+  border-radius: 5%;
+  border-color: orangered;
+  border-width: 0px;
+  background: rgba(235, 224, 224, 0.7);
+}
+
+.hobbies {
+  padding: 2rem;
+}
+
+.hobbie {
+  width: 3rem;
+  height: 3rem;
+}
+
+footer {
+  background-color: orangered;
+  height: 3rem;
+  bottom: 0;
+  padding: 0;
+}
+
+.education-title {
+  padding-bottom: 0.5rem;
+}
+
+.footer-text {
+  color: #ffffff;
+  padding-top: 0.5rem;
+}
