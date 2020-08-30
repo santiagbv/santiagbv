@@ -1,3 +1,14 @@
+/* En este archivo de estilos existen problemas con la organización del contenido, puesto
+   que están las reglas de selectores de clase mezcladas con las reglas de selectores de id.
+   Por otro lado, no se dividieron correctamente los contenidos asociados a las diferentes secciones
+   del documento (banner, projects, etc) */
+
+/* Se encontraron algunos errores leves de indentación del contenido. Las reglas tienen nombres descriptivos
+   y se respeta la disposición jerárquica del contenido. */
+
+/* El diseño estético de la página es adecuado, tiene una gama de colores agradable, bloques y secciones
+   consistentes, tipografía amigable e imágenes */
+
 .skills {
   width: 100%;
   padding: 0 20px;
