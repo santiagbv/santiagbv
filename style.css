@@ -1,3 +1,14 @@
+/*
+
+Se observa un buen manejo del archivo .css, acá se presenta 
+un buen manejo de elementos por clases e identificadores principalmente.
+Por otro lado, se observa que las reglas dan una buena apariencia a la página
+como lo mencionado en el archivo .html.
+
+Finalmente, es interesante ver dos archivos .css para distribuir las responsabilidades.
+
+*/
+
 body {
   overflow-x: hidden;
 }
