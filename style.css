@@ -10,10 +10,11 @@ body {
   margin-left: auto;
 }
 
+/*COMENTARIO: La regla se nombra de manera adecuada para identificar el elemento al que se aplican estilos*/
 .mycard {
   padding-top: 1rem;
 }
-
+/*COMENTARIO: La regla se nombra de manera adecuada para identificar el elemento al que se aplican estilos*/
 .me {
   font-family: "Russo One", sans-serif;
   text-transform: uppercase;
@@ -117,3 +118,6 @@ footer {
   color: #ffffff;
   padding-top: 0.5rem;
 }
+
+/*COMENTARIOS GENERALES CSS: Se nombra de manera adecuada las reglas para la identificación de los elementos a los 
+que se aplican estilos. El código es legible y está bien estructurado*/

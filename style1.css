@@ -16,6 +16,7 @@
   border-radius: 8px;
 }
 
+/*COMENTARIO: No es muy clara la regla para poder identificar el elemento al que se hace la aplicación de estilos*/
 .skill-per {
   height: 20px;
   background-color: orangered;
@@ -49,3 +50,5 @@
   transform: translateX(50%) rotate(45deg);
   border-radius: 2px;
 }
+
+/*COMENTARIOS GENERALES CSS: Ver comentarios en el archivo style.css*/

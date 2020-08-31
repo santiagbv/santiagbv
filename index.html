@@ -14,6 +14,7 @@
     />
     <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Russo+One&display=swap" rel="stylesheet">   
+    <!--COMENTARIO: Sería mejor manejar un solo archivo para los estilos-->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="style1.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -22,6 +23,7 @@
   </head>
   <body>
     <div class="container-fluid">
+      <!--COMENTARIO: Se usa la etiqueta <header> para diferenciar el encabezado de la página. Me parece buena práctica-->
       <header>
         <nav class="navbar navbar-light navbar-expand-lg">
           <a class="navbar-brand name" href="#">Santiago Bolaños</a>
@@ -57,6 +59,7 @@
           </div>
         </nav>
       </header>
+      <!--COMENTARIO: Se usa de manera adecuada la etiqueta <main> para diferenciar las secciones-->
       <main>
         <section>
           <div class="row justify-content-center banner">
@@ -153,7 +156,7 @@
               </div>
           </div>
         </section>
-
+        <!--COMENTARIO: El id utilizado es claro para saber a qué hace referencia-->
         <section id="projects">
             <div class="row justify-content-center projects-sec ">
                 <div class="col-12">
@@ -165,6 +168,9 @@
                         <div class="col-12 col-md-6 justify-content-center">
                             <div class="card mb-3 text-center">
                                 <div class="card-body">
+                                    <!--COMENTARIO: Me parece muy apropiado que se guarden todas las imágenes a utilizar en una carpeta
+                                    dentro de la carpeta principal del proyecto. Esto permite que el esté organizado para facilitar el acceso a
+                                    las imágenes y que el navegador cargue la página más rápido-->
                                     <img class="project-image" src="./images/512x512bb.jpg" alt="Chiper">
                                     <h5 class="card-title">Chiper</h5>
                                   <p class="card-text">Project developed in Software Architecture course. Django and Spring Boot were used as a backend development frameworks</p>
@@ -318,6 +324,7 @@
           </div>
         </section>
       </main>
+      <!--COMENTARIO: Se usa de manera adecuada la etiqueta <footer> para diferenciar las secciones-->
       <footer class="text-center ">
         <div class="container align-self-center">
           <p class="footer-text">Santiago Bolaños Vega. &copy; 2020</p>
@@ -345,3 +352,7 @@
     </div>
   </body>
 </html>
+
+<!--COMENTARIOS GENERALES HTML: El código es legible, tiene una estructura clara y se pueden diferenciar las secciones lógicas con facilidad.
+Sería mejor utilizar una sola referencia a los estilos para la página. La página tiene un buen diseño estético, los colores seleccionados
+son apropiados, al igual que la tipografía y las imágenes. Se puede navegar en ella con facilidad y las secciones permiten leer con facilidad-->
